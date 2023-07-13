@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Delius+Unicase:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Delius+Unicase:wght@700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Delius+Unicase:wght@700&family=Inter&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.navp {
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    background: #6F6AF7;
+    display: flex;
+}
+
+h1 {
+    color: #FFF;
+    font-family: 'Delius Unicase', cursive;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 2vh 8vw 2vh 3vw;
+}
+
+h2 {
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 4vh;
+    margin-right: 3.2vw;
+}
+
+input {
+    background: url(./images/search.png) no-repeat right 10px center;
+    border-radius: 63px;
+    background-color: #FFF;
+    margin: 3vh 9vw 3vh 1vw;
+    border-style: none;
+    color: #9F9F9F;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 2vh 13vw 2vh 1vw;
+}
+
+#dpd {
+    margin-bottom: 0.5vh;
+}
+
+#ham {
+    width: 55px;
+    height: 40px;
+    padding-top: 3.5vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+}
+
+p {
+    color: #6F7373;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 178.7%;
+    padding: 3vh 5vh 36vh 5vh;
+}
+
+.box {
+    border-radius: 20px;
+    border: 6px solid #FFF;
+    background: #E5D8FF;
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+    margin-right: 8vh;
+    margin-top: 15vh;
+
+
+}
+
+#hero {
+
+    width: 45vh;
+    margin-left: 8vw;
+    margin-top: 15vh;
+    margin-right: 2.5vw;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 9vh;
+}
+
+.first {
+    border-radius: 11px;
+    background: #929DFF;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    letter-spacing: 1.16px;
+    padding-top: 1vh;
+    padding-bottom: 1.5vh;
+    padding-left: 3vh;
+    margin-left: 6vh;
+    width: 17vw;
+}
+
+.second {
+    border-radius: 11px;
+    background: #734CF2;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    letter-spacing: 1.16px;
+    padding: 1vh 4vh 1.5vh 3vh;
+    width: 15vw;
+}
+
+.third {
+    border-radius: 11px;
+    background: #D288FF;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    letter-spacing: 1.16px;
+    padding: 1vh 4vh 1.5vh 3vh;
+    width: 15vw;
+}
+
+.fourth {
+    border-radius: 11px;
+    background: #000;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    letter-spacing: 1.16px;
+    padding: 1vh 4vh 1.5vh 3vh;
+    margin-right: 7vh;
+    width: 15vw;
+}
+
+.inside {
+    line-height: 0%;
+}
+
+#wp {
+    display: block;
+    margin-bottom: 0.5vh;
+    padding-top: 25vh;
+
+}
+
+#fb {
+    display: block;
+    margin-bottom: 0.5vh;
+}
+
+.icons {
+    float: right;
+    position: sticky;
+    top: -12%;
+
+}
+
+.help {
+    position: fixed;
+    left: 88vw;
+    top: 90vh;
+}
+
+.info {
+    display: flex;
+    border-radius: 19px;
+    background: #483EFF;
+    width: 89%;
+    margin-left: 5vw;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+
+h3 {
+    border-radius: 20px;
+    background: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    letter-spacing: 1.4px;
+    margin-top: 8vh;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+h4 {
+    border-radius: 19px;
+    background: #483EFF;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    letter-spacing: 1.4px;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-radius: 22px;
+    border: 5px solid #FFF;
+}
+
+.buttons {
+    width: 25%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.marks {
+    width: 62.5%;
+    border-radius: 16px;
+    background: #FFF;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding-left: 3.2vw;
+    padding-top: 7.5vh;
+}
+
+h5 {
+    color: #04285A;
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.99px;
+    margin-bottom: 5vh;
+}
+
+ul {
+    list-style: none;
+    color: #143565;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    margin-left: 1.5vw;
+}
+
+span {
+    color: #04285A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.94px;
+}
+
+li {
+    margin-bottom: 3.5vh;
+}
+
+h6 {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    background: #000;
+    width: 9vw;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 20vh;
+    margin-left: 43vw;
+}
