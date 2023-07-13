@@ -45,7 +45,7 @@ h2 {
 }
 
 input {
-    background: url(./images/search.png) no-repeat right 10px center;
+    background: url(search.png) no-repeat right 10px center;
     border-radius: 63px;
     background-color: #FFF;
     margin: 3vh 9vw 3vh 1vw;
