@@ -26,37 +26,37 @@ nav {
 h1 {
     color: #FFF;
     font-family: 'Delius Unicase', cursive;
-    font-size: 45px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     padding: 2vh 8vw 2vh 3vw;
 }
 
-h2 {
+.nav {
     color: #FFF;
     font-family: 'DM Sans', sans-serif;
-    font-size: 23px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     padding-top: 4vh;
-    margin-right: 3.2vw;
+    margin-right: 2vw;
 }
 
 input {
-    background: url(search.png) no-repeat right 10px center;
+    background: url(./images/search.png) no-repeat right 10px center;
     border-radius: 63px;
     background-color: #FFF;
     margin: 3vh 9vw 3vh 1vw;
     border-style: none;
     color: #9F9F9F;
     font-family: 'DM Sans', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 2vh 13vw 2vh 1vw;
+    padding: 1vh 4vw 1vh 1vw;
 }
 
 #dpd {
@@ -67,6 +67,7 @@ input {
     width: 55px;
     height: 40px;
     padding-top: 3.5vh;
+    margin-left: 5vw;
 }
 
 main {
@@ -78,11 +79,11 @@ main {
 p {
     color: #6F7373;
     font-family: 'DM Sans', sans-serif;
-    font-size: 22px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 400;
     line-height: 178.7%;
-    padding: 3vh 5vh 36vh 5vh;
+    padding: 2.5vh 13vw 33.5vh 3vh;
 }
 
 .box {
@@ -90,24 +91,25 @@ p {
     border: 6px solid #FFF;
     background: #E5D8FF;
     box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
-    margin-right: 8vh;
-    margin-top: 15vh;
+    margin-right: 1vw;
+    margin-top: 16vh;
+
 
 
 }
 
 #hero {
 
-    width: 45vh;
+    width: 42vh;
     margin-left: 8vw;
-    margin-top: 15vh;
+    margin-top: 16vh;
     margin-right: 2.5vw;
 }
 
 .cards {
     display: flex;
     justify-content: space-around;
-    margin-top: 9vh;
+    margin-top: 8vh;
 }
 
 .first {
@@ -116,16 +118,16 @@ p {
     box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
     color: #FFF;
     font-family: 'DM Sans', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 178.7%;
     letter-spacing: 1.16px;
-    padding-top: 1vh;
-    padding-bottom: 1.5vh;
-    padding-left: 3vh;
-    margin-left: 6vh;
-    width: 17vw;
+    padding-left: 1.5vw;
+    padding-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 3vw;
+    width: 18%;
 }
 
 .second {
@@ -134,13 +136,15 @@ p {
     box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
     color: #FFF;
     font-family: 'DM Sans', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 178.7%;
     letter-spacing: 1.16px;
-    padding: 1vh 4vh 1.5vh 3vh;
-    width: 15vw;
+    padding-left: 1.5vw;
+    padding-top: 5vh;
+    margin-right: 3vw;
+    width: 18%;
 }
 
 .third {
@@ -149,13 +153,15 @@ p {
     box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
     color: #FFF;
     font-family: 'DM Sans', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 178.7%;
     letter-spacing: 1.16px;
-    padding: 1vh 4vh 1.5vh 3vh;
-    width: 15vw;
+    padding-left: 1.5vw;
+    padding-top: 5vh;
+    margin-right: 3vw;
+    width: 18%;
 }
 
 .fourth {
@@ -164,18 +170,26 @@ p {
     box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
     color: #FFF;
     font-family: 'DM Sans', sans-serif;
-    font-size: 24px;
+
     font-style: normal;
     font-weight: 700;
     line-height: 178.7%;
     letter-spacing: 1.16px;
-    padding: 1vh 4vh 1.5vh 3vh;
+    padding-left: 1.5vw;
+    padding-top: 5vh;
     margin-right: 7vh;
-    width: 15vw;
+    width: 18%;
 }
 
 .inside {
     line-height: 0%;
+    font-size: 22px;
+    padding-bottom: 3vh;
+}
+
+.num {
+    font-size: 22px;
+    padding-bottom: 2.5vh;
 }
 
 #wp {
@@ -199,15 +213,15 @@ p {
 
 .help {
     position: fixed;
-    left: 88vw;
-    top: 90vh;
+    left: 87.5vw;
+    top: 85vh;
 }
 
 .info {
     display: flex;
     border-radius: 19px;
     background: #483EFF;
-    width: 89%;
+    width: 91%;
     margin-left: 5vw;
     margin-top: 15vh;
     margin-bottom: 5vh;
